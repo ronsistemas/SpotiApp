@@ -24,7 +24,7 @@ export class SpotifyService {
   //FUNCIÓN PARA OBTENCIÓN DE NUEVOS LANZAMIENTOS
   getNewReleases() {
    /*  const headers = new HttpHeaders({
-      Authorization: 'Bearer BQAuI7_mZqtldxoEvQQhk8Z6T_1ow1jsZQkzpakuOaolTooLEk44paHexl-uhOaUCjoQLheLnjf6_IPQH39BNLOKHl97DHDgyhPN7xUl0x6Ksw9SD9i26yCNKs04pIhMrihi7YBe04qcew'
+      Authorization: 'Bearer BQB9L-WIYlTqpHUTzYPQBx26mMByM-WmGgInSKmHk3hw2rEXB_HbfOEIVjLTWPc-l6tK2EYgh_r_a1wgQaA'
     }); */
     return this.getQuery('browse/new-releases')
     // Pipe que extrae la información necesaria del objeto que se recibe y lo almacena en un array
