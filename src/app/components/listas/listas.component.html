@@ -1,0 +1,11 @@
+<div class="card-columns m-5">
+    <div class="card animated fadeIn text-center puntero" *ngFor="let lista of listas">
+        <img [src]="lista.images[0].url" class="card-img-top" alt="Imagen ">
+        <div class="card-body">
+            <h5 class="card-title">{{ lista.name }}</h5>
+            <p class="card-text">
+                <span class="badge badge-pill badge-primary">
+                  
+              </span></p>
+        </div>
+    </div>
